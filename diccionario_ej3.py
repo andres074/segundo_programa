@@ -1,7 +1,7 @@
 
 '''Crea un programa que cuente el número de veces que aparece una palabra en una string'''
 
-agenda = {'Hola' : 0, 'me' : 0, 'llamo' : 0, 'pepe' : 0}
+agenda =dict()
 
 string_a_contar= 'Hola Hola me me me llamo llamo llamo pepe pepe pepe'
 
