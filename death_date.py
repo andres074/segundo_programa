@@ -48,4 +48,4 @@ lifespan = base_lifespan - years_lost
 date_death = birthday_date + datetime.timedelta(days=lifespan * 365)
 days_left = date_death - datetime.datetime.now()
 
-print('La fecha de tu muerte sera {},tus dias restantes son {}, la día de tu partida sera el  {} '.format(date_death.strftime('%d/%m/%Y'), days_left.days,days_week[date_death.weekday()]))
+print('La fecha de tu muerte sera {},tus dias restantes son {}, el día de tu partida sera el  {} '.format(date_death.strftime('%d/%m/%Y'), days_left.days,days_week[date_death.weekday()]))

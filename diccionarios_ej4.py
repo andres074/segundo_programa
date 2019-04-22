@@ -3,11 +3,12 @@
 sea la string.'''
 
 def rallitas_string(string_usuario):
+    string_rallitas = ''
     for letra in string_usuario:
-        string_usuario = string_usuario.replace(letra, '-')
-    return string_usuario
+        string_rallitas += '-'
+    print(string_usuario)
+    print(string_rallitas)
 
-oracion = input('Elige la oración que quieres cambiar')
+oracion = input('Elige la oración que quieres cambiar ')
 
-print(oracion)
-print(rallitas_string(oracion))
+rallitas_string(oracion)

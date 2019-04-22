@@ -9,7 +9,7 @@ def number_in_range(primero,segundo,tercero):
     return resultado
 
 print(number_in_range(2,0,10))
-print(number_in_range(1,1,3))
+print(number_in_range(3,1,3))
 print(number_in_range(6,2,6))
 print(number_in_range(2,3,6))
 print(number_in_range(9,7,8))
